@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Dinas Informasi dan Statistik Prov Bengkulu
+        </title>
+        <link href="newfile.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="title">
+        <h1>Informasi Penerangan</h1>
+        <ul class="nav">
+            <li><a href="#member">Sign Up / log in</a></li>   
+            <li><a href="#contact">Contact Us</a></li>     
+            </ul>
+        </div>
+        <div id="ask">    
+            <p >To ask more click <a href="#contact">here</a></p>
+        </div>
+        <div id="member">
+            <h2>Sign in</h2>
+            <br>
+            Click <a href="form.html" target="_blank">here</a> to sign up
+        </div>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div id="details">
+                <p> 
+                    <br>
+                    Website:<br> https://diskominfotik.bengkuluprov.go.id/ <br>
+                    <br>
+                </p>
+            </div>
+            <form>
+                <div>
+                    <label for="nip">Nip :</label>
+                    <input type="text" id="nip" nip="user_nip">
+                </div>
+                <div>
+                    <label for="name">Name   :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">E-mail :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="number">
+                <div>
+                    <label for="reasons">Reason : </label>
+                    <input id="design-radio" type="radio" name="reasons" value="design">
+                    <label for="design-radio">Cuti</label>
+                    <input id="maintenance-radio" type="radio" name="reasons" value="maintenance">
+                    <label for="maintenance-radio">Dinas</label>
+                    <input id="repair-radio" type="radio" name="reasons" value="repair">
+                    <label for="repair-radio">Pendidikan</label>
+                    <input id="wash-radio" type="radio" name="reasons" value="wash">
+                    <label for="other-radio">Other</lable>
+                </div>
+                <div>
+                    <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div><div>
+                        <label for="date">Date Start :</label>
+                        <input type="date" id="date" name="user_date">
+                    </div>
+                    <div>
+                            <label for="date">Date Stop :</label>
+                            <input type="date" id="date" name="user_date">
+                        </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </body>
+    <footer>
+        Created by Ari wibowo.
+    </footer>
+</html>
